@@ -1,0 +1,15 @@
+body > * {
+  border: 1px solid black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  border: 1px dashed blue;
+  gap: 1rem;
+  padding: 1rem;
+
+  >* {
+    border: 1px solid black;
+  }
+}
