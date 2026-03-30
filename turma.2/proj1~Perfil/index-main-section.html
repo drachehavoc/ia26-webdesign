@@ -4,33 +4,27 @@
 <head>
   <title>Perfil - Aside</title>
   <style>
+
     main {
       border: 2px dashed black;
+      padding: 1em;
+      display: grid;
+      grid-template-columns: 350px 1fr;
     }
-
+    
     main aside {
-      border: 2px solid red;
-      width: 350px;
-      display: inline-block;
-      vertical-align: top;
+      border: 2px dashed red;
+      padding: 1em;
     }
-
-    main aside .thumb {
-      border: 2px solid blue;
-    }
-
-    main aside .thumb img {
+    
+    main aside img {
       width: 100%;
+      
     }
-
-    main aside .info {
-      border: 2px solid green;
-    }
-
-    main section {
-      border: 2px solid orange;
-      width: 500px;
-      display: inline-block;
+     
+    main > section {
+      border: 2px dashed purple;
+      padding: 1em;
     }
   </style>
 </head>
