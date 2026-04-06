@@ -229,7 +229,7 @@ Existem vários tipos de seletores CSS que permitem selecionar elementos HTML de
 
 Seletores de descendentes, filhos e irmãos:
 
-| Tipo de Seletor               | Exemplo‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ | Descrição |
+| Tipo de Seletor               | Exemplo<img width="350" height="1">  | Descrição |
 |------------------------------ | -------------------------------- | --------- |
 | Seletor de Descendente        | `elemento1 elemento2 { }`        | Seleciona elementos que são descendentes de um elemento específico. Exemplo: `main section p { color: green; }` seleciona todos os parágrafos que estão dentro de uma seção, que por sua vez está dentro do elemento principal `<main>`, e aplica a cor verde. |
 | Seletor de Filho              | `elemento1 > elemento2 { }`      | Seleciona elementos que são filhos diretos de um elemento específico. Exemplo: `main > section { background-color: lightgray; }` seleciona todas as seções que são filhos diretos do elemento principal `<main>` e aplica um fundo cinza claro. |
