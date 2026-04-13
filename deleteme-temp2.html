@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset='utf-8'>
-  <title>Page Title</title>
-  
+  <title>hack css</title>
   <style>
+    #toggle {
+      display:none;
+    }
+
+    #toggle:checked ~ aside {
+      transform: translateX(0%);
+    }
+    
     aside {
+      background-color: lightcoral;
       position: fixed;
       left: 0;
       top: 0;
+      width: 200px;
       height: 100vh;
-      background-color: lightcoral;
       transform: translateX(-100%);
       transition: .3s;
     }
-
-    #toggle-aside:checked + aside {
-      transform: translateX(0);
-    }
-
   </style>
-
 </head>
+
 <body>
-  
-  
-  <input id="toggle-aside" type="checkbox" >
+  <input type="checkbox" id="toggle">
+  <span>asjkdgasjd</span>
   <aside>
-    <h2>Sidebar</h2>
-    <p>This is the sidebar content.</p>
-    <button>Click me</button>
-    <label for="toggle-aside">Close Sidebar</label>
+    goiaba
+    <label for="toggle">textoqualquer</label>
   </aside>
-
-
+  <p>lorem</p>
+  <p>lorem</p>
+  <p>lorem</p>
+  <p>lorem</p>
+  <p>lorem</p>
+  <label for="toggle">textoqualquer</label>
 </body>
+
 </html>

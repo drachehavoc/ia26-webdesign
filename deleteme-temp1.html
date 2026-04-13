@@ -1,68 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="utf-8">
-  <title>Meu Querido Formulário</title>
-  <style>
-    #check-termos {
-      display: none;
-    }
-
-    #check-termos:checked+div {
-      color: red;
-    }
-  </style>
-</head>
-
-<body>
-  <input type="checkbox" id="check-termos" name="termos">
-  <div>
-    oieeee galera
-  </div>
-
-
-  <form action="" method="get">
-
-    <div>
-      <label for="inp-nome">Nome</label>
-      <input type="password" name="nome" id="inp-nome">
-    </div>
-
-    <div>
-      <label for="sel-posicao">Posição</label>
-      <select id="sel-posicao">
-        <option>cima</option>
-        <option>baixo</option>
-        <option>esquerda</option>
-        <option>direita</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="">Posição</label>
-      <input type="radio" name="posicao">Cima
-      <input type="radio" name="posicao">Baixo
-      <input type="radio" name="posicao">Esquerda
-      <input type="radio" name="posicao">Direita
-    </div>
-
-    <div>
-      <label for="txt-mensagem">Mensagem</label>
-      <textarea id="txt-mensagem" name="mensagem" cols="30" rows="10">oi...</textarea>
-    </div>
-
-    <div>
-      <label for="check-termos">Termos de Uso</label>
-    </div>
-
-    <button>
-      akdjsahdkjh
-    </button>
-
-  </form>
-
-
-</body>
-
+<html>
+  <head>
+    <title>Formulário</title>
+  </head>
+  <body>
+  <form method="get">
+      <div>
+        <label for="inp-nome">nome</label>
+        <input type="text" name="nome" id="inp-nome">
+      </div>
+      <div>
+        <label for="">usuário</label>
+        <input type="text" name="usuario">
+      </div>
+      <div>
+        <label for="">senha</label>
+        <input type="password" name="senha">
+      </div>
+      <div>
+        <label for="">confirmar senha</label>
+        <input type="password" name="confirmar-senha">
+      </div>
+      <button>enviar</button>
+    </form>
+  </body>
 </html>
