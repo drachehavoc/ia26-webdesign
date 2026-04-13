@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Page Title</title>
+  
+  <style>
+    aside {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      background-color: lightcoral;
+      transform: translateX(-100%);
+      transition: .3s;
+    }
+
+    #toggle-aside:checked + aside {
+      transform: translateX(0);
+    }
+
+  </style>
+
+</head>
+<body>
+  
+  
+  <input id="toggle-aside" type="checkbox" >
+  <aside>
+    <h2>Sidebar</h2>
+    <p>This is the sidebar content.</p>
+
+    <label for="toggle-aside">Close Sidebar</label>
+  </aside>
+
+
+</body>
+</html>
